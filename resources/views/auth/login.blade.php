@@ -14,7 +14,7 @@
 
 <body>
     <div class="row justify-content-center" style="margin-top: 150px">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
             <main class="form-registration">
                 <h1 class="h3 mb-3 fw-normal text-center">Login</h1>
                 <form action="/login" method="POST">
