@@ -9,3 +9,8 @@ Route::get('/dashboard', function () {
 Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [App\Http\Controllers\Auth\LoginController::class, 'authenticate']);
 Route::post('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout']);
+
+
+Route::get('/', function () {
+    return view('welcome');
+});
